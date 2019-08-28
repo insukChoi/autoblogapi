@@ -1,0 +1,27 @@
+spring:
+  # jconsole admin
+  application:
+    admin:
+      enabled: true
+  # Live Reload
+  devtools:
+    livereload:
+      enabled: true
+  # Log Color
+  output:
+    ansi:
+      enabled: always
+  jackson:
+    default-property-inclusion: non_null
+
+
+#### API 정보들
+# 1. 금융꿀팁 200선 API
+tip:
+  uri: http://www.fss.or.kr/fss/kr/openApi/api/tip.jsp
+  apitype: json
+  authkey: dfd8398ffceef7916f9055b650e503a0
+  file-output-dir: D:\log
+  file-name: tip
+
+# 2. ~~~
